@@ -1,0 +1,410 @@
+{
+  "version": "1.7",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 17,
+      "sha256": "b5696b4d4db847b5a625b06c4adb8ee74d5fe3e9691af1ed6a268e507317c70b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 123,
+      "sha256": "7a51eaf13a48695a35c5aec4925699baa60e5bd94b7c185f04d78fc96d195232"
+    },
+    {
+      "path": "01_setup.bat",
+      "bytes": 123,
+      "sha256": "280f03d523370726e80cbdb030262e379bc7086840d9d7bffc99a4241c9d16e1"
+    },
+    {
+      "path": "01_setup.command",
+      "bytes": 3801,
+      "sha256": "10aec6108f27efbac118fbf28accddc0f48b9f8e9daf9d69caee0735bfef6190"
+    },
+    {
+      "path": "02_start.bat",
+      "bytes": 123,
+      "sha256": "7a26488568d3e05beb4a617c87487f5c26ed0023c74f6d6b08daa82f44046f76"
+    },
+    {
+      "path": "02_start.command",
+      "bytes": 758,
+      "sha256": "79bccda162d041c79476d0b4f9d33f5449ca051ff460733c33ee9b9e9bf22a1e"
+    },
+    {
+      "path": "2026-11-15_小川さん_押す場所ガイド.pdf",
+      "bytes": 1047324,
+      "sha256": "dfe8af6d31aa9579cd7381008b9150d24d21901f21d561a5a0d500944df3b58b"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 5281,
+      "sha256": "edcc1df32f6bad574c3f513d1e05877ba70bc4605b7c844a422eaf22ec097413"
+    },
+    {
+      "path": "AIへの依頼文.txt",
+      "bytes": 2015,
+      "sha256": "53283754f586a401e306e649500f5b6f94b86a90da88aa127e70af1d9abadf78"
+    },
+    {
+      "path": "config.json",
+      "bytes": 1013,
+      "sha256": "a1aa906f6de9b6bbd3a40ff79e2357e5b235b90e13477a08b387d69a8582ff47"
+    },
+    {
+      "path": "engine/app.py",
+      "bytes": 11161,
+      "sha256": "9bb4f4b24a5eafeeac66f115adccf5ab92ddcbbe9ff19fbc5ec554b76d97cbae"
+    },
+    {
+      "path": "engine/lib/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engine/lib/client.py",
+      "bytes": 15188,
+      "sha256": "8ac354648fa490916bd5a93b868fbc3d9840dd47102d3d1f2dd13c8e1ecfff77"
+    },
+    {
+      "path": "engine/lib/common.py",
+      "bytes": 5646,
+      "sha256": "4435aa99d91841c80da2dd5ac5354c3d1093af06bd8d5c57803ed869f4d3c260"
+    },
+    {
+      "path": "engine/lib/cost.py",
+      "bytes": 6896,
+      "sha256": "0dad5f1d1ae6d4b823c8c1a03f1f09f27f47b23bcef19124231810fd7f4a0dec"
+    },
+    {
+      "path": "engine/lib/preflight.py",
+      "bytes": 12316,
+      "sha256": "26d1145861f149c64f9acc466a18e5bce7ea4b19bdaef56ff2f787469f493964"
+    },
+    {
+      "path": "engine/lib/prompt.py",
+      "bytes": 12924,
+      "sha256": "88825372a6b4c3053d456a60c435d271203ed669da5b46db0754a5a2bef4f657"
+    },
+    {
+      "path": "engine/lib/upload.py",
+      "bytes": 4189,
+      "sha256": "d863522d56a8dc0e9cf707ed646a5e677f6ab30978b6c3ae6de11d1f6da115ee"
+    },
+    {
+      "path": "engine/media.py",
+      "bytes": 6787,
+      "sha256": "bf4cfb1ad432e0bc28f6acde9f66f49a0b31a6d3e2a421653f21432c16c54185"
+    },
+    {
+      "path": "engine/run.py",
+      "bytes": 13634,
+      "sha256": "58f3bc0c3c375eb5fb9499950ae7fd88437c1342dd7b5b5c99993268b3964a56"
+    },
+    {
+      "path": "examples/packing/assistant.png",
+      "bytes": 1891158,
+      "sha256": "34da9a1b70ea53e550c3f3574c7cd10b8c55d20149c09d178a802d59fc4e6b3c"
+    },
+    {
+      "path": "examples/packing/compare-reference.mp4",
+      "bytes": 4112427,
+      "sha256": "c1e0cf0f55135679df1719de983d97b52bff0e306bf0f05485cbfb6dd5390374"
+    },
+    {
+      "path": "examples/packing/compare-trial.mp4",
+      "bytes": 4163948,
+      "sha256": "e8415319636b52942a39e327b12eec9ad661a4ed09b9eb4f406a8a1fd10ae2f6"
+    },
+    {
+      "path": "examples/packing/index.html",
+      "bytes": 8133,
+      "sha256": "91ae37fb799309a9e75dba0a429bf0a4391b2dee1b255bed38531d62a7d03200"
+    },
+    {
+      "path": "examples/packing/Packing-trial.mp4",
+      "bytes": 8714717,
+      "sha256": "4d66dd1e890bec8712f06eaaff0506159d1652484038c459f1e53fd61c63c436"
+    },
+    {
+      "path": "examples/packing/person.png",
+      "bytes": 1925395,
+      "sha256": "bd347f0ba641e5287487a30f22cbb06ad344d032431cfed12da95e5855be2a35"
+    },
+    {
+      "path": "examples/packing/poster.jpg",
+      "bytes": 36607,
+      "sha256": "0c016bb079c6ddfd6bf402bf57caa667e281eeae62d042387c18371e80b2045c"
+    },
+    {
+      "path": "examples/packing/はじめに.txt",
+      "bytes": 951,
+      "sha256": "da9d201897bb51234a0d6677f21d4161a1ecd5c6f65dd249bd4018d3aaec3079"
+    },
+    {
+      "path": "guide/d1.png",
+      "bytes": 30860,
+      "sha256": "b79654cdfc5f6b0aaa0cc63e235313a7144ef95256746457b3625580b7d04d71"
+    },
+    {
+      "path": "guide/d2.png",
+      "bytes": 32745,
+      "sha256": "06037f3360d03797b41ab6161d327bd6d38be8d970505b14a601e4754494ab31"
+    },
+    {
+      "path": "guide/d3.png",
+      "bytes": 33064,
+      "sha256": "c1b9fe4913e373e9fd05ab19df1ba455aeabece608019b68ac9cf108063094cc"
+    },
+    {
+      "path": "guide/d4.png",
+      "bytes": 30544,
+      "sha256": "e659684413f51e5fde5509eaf9a8b0ee401cbcaae5b1761752ee80d10f0d0ae2"
+    },
+    {
+      "path": "guide/d5.png",
+      "bytes": 38262,
+      "sha256": "bcb50a0e245a6d90b0f3000b7ce861dbfb53a7dc2bd28725448cb5cecb9283e6"
+    },
+    {
+      "path": "guide/s1.png",
+      "bytes": 29396,
+      "sha256": "20927947d688cde97a958269d190916fa3209b403d7507482fe0b0dfe6baf233"
+    },
+    {
+      "path": "guide/s10.png",
+      "bytes": 29309,
+      "sha256": "fbaf3df1e1e5bf777ac8df902cb2ead05a5a225e0c921a6c59a3420f019e88e9"
+    },
+    {
+      "path": "guide/s2.png",
+      "bytes": 34814,
+      "sha256": "f1836a0c67d663c907e4900d20d39d7793ba41d6427db83f9097efc004192fdf"
+    },
+    {
+      "path": "guide/s3.png",
+      "bytes": 27534,
+      "sha256": "a46e19de2fe167b6f9f9970a99741953b17abc24f0c829dfee192cf7018dd746"
+    },
+    {
+      "path": "guide/s4.png",
+      "bytes": 29841,
+      "sha256": "69af3289b75371b8f2ad2d1e70619c81cb14a8476c2f440e2b4f2363be9661a1"
+    },
+    {
+      "path": "guide/s5.png",
+      "bytes": 32783,
+      "sha256": "c80b4a0b1c6aeaafd69d741011faef4fdc40031cbc1de37619f194c7a79abf06"
+    },
+    {
+      "path": "guide/s6.png",
+      "bytes": 60031,
+      "sha256": "136090f513592bc4969cd6a211ba068b8e1a83cb40c148c5fd0afa860bfba752"
+    },
+    {
+      "path": "guide/s7.png",
+      "bytes": 137424,
+      "sha256": "9b0953d02f9c8b0fd5dab274d50864ada192de57117f2dbb182555924e054993"
+    },
+    {
+      "path": "guide/s7b.png",
+      "bytes": 64747,
+      "sha256": "41c5babb133380a0189b051347a65d98979088e555d69af0f48a4935fdd66abd"
+    },
+    {
+      "path": "guide/s8.png",
+      "bytes": 34182,
+      "sha256": "c6ebcbb47f64a1c516c18d990be6edb07c1fd78bd092474d787e323ad305a2e3"
+    },
+    {
+      "path": "guide/s9.png",
+      "bytes": 160474,
+      "sha256": "ce88d3c48303794eb195843bfeaaa5b2ba68f096ef03e63eac24204049ac0256"
+    },
+    {
+      "path": "guide/steps.json",
+      "bytes": 8209,
+      "sha256": "86f9c276d29be70de1165df15fc5863d47fd2eed71346778d3408a682eb40b1e"
+    },
+    {
+      "path": "mac_common.sh",
+      "bytes": 1344,
+      "sha256": "72a98b3e2d02729661bf5df5e18f923756e57c462e29091540ab60e522088615"
+    },
+    {
+      "path": "projects/packing/assets/assistant.png",
+      "bytes": 1891158,
+      "sha256": "34da9a1b70ea53e550c3f3574c7cd10b8c55d20149c09d178a802d59fc4e6b3c"
+    },
+    {
+      "path": "projects/packing/assets/person.png",
+      "bytes": 1925395,
+      "sha256": "bd347f0ba641e5287487a30f22cbb06ad344d032431cfed12da95e5855be2a35"
+    },
+    {
+      "path": "projects/packing/assets/prompt-a.txt",
+      "bytes": 3959,
+      "sha256": "7e4b3d065a9527a84ea21bd268a1520b38d439d7beb3cb930a82798b8eb2582d"
+    },
+    {
+      "path": "projects/packing/assets/prompt-b.txt",
+      "bytes": 3893,
+      "sha256": "017dc0d8bf0a326a601cbb3b8a88581169c7ff6699cbd6034a68c2124b83dd20"
+    },
+    {
+      "path": "projects/packing/assets/prompt-c.txt",
+      "bytes": 3838,
+      "sha256": "a36a7da5e89ce996a3fb9520b89e068e8844de7d25295f7c80d0e195204fbe4a"
+    },
+    {
+      "path": "projects/packing/assets/ref-a-clean.mp4",
+      "bytes": 2862083,
+      "sha256": "bb7120241373232807cf726acf46d57abd0955d3448790589e343f9aa358ca4a"
+    },
+    {
+      "path": "projects/packing/assets/ref-b-clean.mp4",
+      "bytes": 1835622,
+      "sha256": "0d04affa0b11490de5761001782ccf7a79bfecc7a46649db32547598e3c2e937"
+    },
+    {
+      "path": "projects/packing/assets/ref-c-clean.mp4",
+      "bytes": 1557861,
+      "sha256": "a5c89f2860b630780d3787c3f25edc32f892c0df00734c9ef086dea98a5a7014"
+    },
+    {
+      "path": "projects/packing/assets/reference.mp4",
+      "bytes": 3521984,
+      "sha256": "697d89614fb84e2e6053dfc7785dc616500d6ac4ab31c8760fe3599ec55b5e20"
+    },
+    {
+      "path": "projects/packing/project.json",
+      "bytes": 1094,
+      "sha256": "06331acb8960ecb90b87ca68acad29fd41fd453b9c70d5ce51e66f6ba4c01959"
+    },
+    {
+      "path": "projects/packing/scripts/Arimo-OFL.txt",
+      "bytes": 4384,
+      "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992"
+    },
+    {
+      "path": "projects/packing/scripts/Arimo.ttf",
+      "bytes": 496268,
+      "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca"
+    },
+    {
+      "path": "projects/packing/scripts/audio.py",
+      "bytes": 2678,
+      "sha256": "c4f78aa87199fc252f17f2d933f00607489c87ec021a430e362beaef6484b588"
+    },
+    {
+      "path": "projects/packing/scripts/cues.json",
+      "bytes": 434,
+      "sha256": "24f1653c5b84b41f76846509dcc7123d0bdbfdf4407480260749ef34f30e00e9"
+    },
+    {
+      "path": "projects/packing/scripts/finish.py",
+      "bytes": 2211,
+      "sha256": "b850c4ae24b7a0d9bb37513459b5fbac470bc74fbbe74798a9347e6de936490e"
+    },
+    {
+      "path": "projects/packing/scripts/graphics.py",
+      "bytes": 1983,
+      "sha256": "c6baefa9292430f5105d0a6e854a12a4146b6e7d946ff534e0f8d419a034bc0f"
+    },
+    {
+      "path": "projects/packing/scripts/index.template.html",
+      "bytes": 5067,
+      "sha256": "ba9fe092318fc054cb35028b64807537a88b8596ae047c4cc87903fa52fdebab"
+    },
+    {
+      "path": "projects/packing/scripts/make_page.py",
+      "bytes": 5593,
+      "sha256": "6cca01326d9caac59c0d44c57988bdada6b1a9d68a3585e21b92d37b58529c78"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9333,
+      "sha256": "c3f55e97b6a1cf4afd52a83e00668da5c6094aae53dd6c94a7872c1a00e2ae2f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 121,
+      "sha256": "be4026f23dea16dc8e502116858a35e7e37eb31fa494ef86810ba0db54abb78f"
+    },
+    {
+      "path": "setup.ps1",
+      "bytes": 4243,
+      "sha256": "46773d8e0afc29e41b236f01b5f9a55b1d6d34d2a5762b036694732fc9dc29f1"
+    },
+    {
+      "path": "skills/instagram-reel-trace/references/portable-kit.md",
+      "bytes": 8374,
+      "sha256": "8dd8b348778105582acc3bb9a4c9dea9458aff9ce4f3d3f659034af5698dcb62"
+    },
+    {
+      "path": "skills/instagram-reel-trace/references/usage.md",
+      "bytes": 11638,
+      "sha256": "1f8578a05f1f782114ef8296ac66d3c52d1e031c3532464531cb74bef2873bfa"
+    },
+    {
+      "path": "skills/instagram-reel-trace/scripts/make_review.py",
+      "bytes": 3356,
+      "sha256": "5f6b765663d05306bbae5daa2d0135ea37649735dde758e321d46343c184e6a0"
+    },
+    {
+      "path": "skills/instagram-reel-trace/scripts/review.html",
+      "bytes": 1775,
+      "sha256": "0c2ad47cfa5740ebefb1c06ed852e826bbba05f0611a5b513548587536074cfc"
+    },
+    {
+      "path": "skills/instagram-reel-trace/SKILL.md",
+      "bytes": 15989,
+      "sha256": "161419127b24deddfa3f2ecfcf7135c9f26572ea2a3d5517e780db8c997c3f7d"
+    },
+    {
+      "path": "start.ps1",
+      "bytes": 1004,
+      "sha256": "ae949d6664a6cebfe5d14fe6585aac737c773f215ff2606d27eb8571768f24a7"
+    },
+    {
+      "path": "tests/test_recovery.py",
+      "bytes": 4831,
+      "sha256": "809dc9159c6ec9f3b1bbb32febdcdd2527c3b1b08ac487aa990135a07415b0ba"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 1039,
+      "sha256": "f567e3c5c49a79084100e9c5a4f93aa6fbb1b522a6da6c762e89c2c42f29c77b"
+    },
+    {
+      "path": "はじめに.html",
+      "bytes": 14504,
+      "sha256": "baeb2278c0d5437076da7c5fd9f7e97904d51ed8c85ea3e7d724d217a50ac34f"
+    },
+    {
+      "path": "制作依頼テンプレート.md",
+      "bytes": 963,
+      "sha256": "c61685241da302c3d78f86cc954958e2823e75530aeabe13e0383176d510a6da"
+    },
+    {
+      "path": "動画を作る依頼文.txt",
+      "bytes": 253,
+      "sha256": "eb9cf4d24996cb70f687214e541bb1b4bb45610a2ceee448119ff80cfc84ea52"
+    },
+    {
+      "path": "最初にCodexへ.txt",
+      "bytes": 245,
+      "sha256": "c1fc37280f685b0a29c7ab71765b1e9f0bec28e0b5902be43af1b6eaf0608c7a"
+    },
+    {
+      "path": "検証結果.json",
+      "bytes": 7108,
+      "sha256": "f086fe4432eecd308bb1d0d3d9243a1e15e34ac1fbba2b9778728246071f1733"
+    },
+    {
+      "path": "詳しい使い方.html",
+      "bytes": 8778,
+      "sha256": "36335ca38c03e507258e7c2724f9d3811f9f949f372822b5e8b1cb986ab0d5b4"
+    }
+  ]
+}
